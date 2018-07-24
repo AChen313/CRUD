@@ -8,6 +8,7 @@ namespace CRUD.Models
 {
     public class Emp
     {
+        [UNIKEY]
         [Display(Name = "客戶編號")]
         public string No { get; set; }
         [Display(Name = "客戶名稱")]

@@ -156,6 +156,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Emp.cs" />
+    <Compile Include="Models\ModelAttribute.cs.cs" />
     <Compile Include="Models\ReturnMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -198,6 +199,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Emp\Index.cshtml" />
+    <Content Include="Views\Emp\Create.cshtml" />
+    <Content Include="Views\Emp\Edit.cshtml" />
+    <Content Include="Views\Emp\Delete.cshtml" />
+    <Content Include="Views\Emp\Details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
